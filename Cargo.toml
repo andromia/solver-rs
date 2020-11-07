@@ -22,3 +22,4 @@ exclude = [".vscode/", "Vagrantfile", "vm-bootstrap.sh"]
 features = ["std"]
 
 [dependencies]
+ndarray = "0.13.0"

@@ -1,3 +1,9 @@
+use ndarray::arr2;
+
+fn get_nodes() {
+    arr2(&[[0., 0.], [0., 0.], [0., 0.]])
+}
+
 #[cfg(test)]
 pub mod tests {
     use crate::common;
