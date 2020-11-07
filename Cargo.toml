@@ -1,0 +1,24 @@
+[package]
+
+name = "solver"
+version = "0.0.1"
+authors = ["cnpls"]
+license = "Apache 2.0"
+description = "Solver Library"
+repository = "https://github.com/cnpls/solver-rs.git"
+homepage = "https://github.com/cnpls/solver-rs.git"
+readme = "README.md"
+keywords = [
+    "solver"
+]
+categories = [
+    "science", 
+    "mathematics",
+    "engineering"
+]
+exclude = [".vscode/", "Vagrantfile", "vm-bootstrap.sh"]
+
+[package.metadata.docs.rs]
+features = ["std"]
+
+[dependencies]
