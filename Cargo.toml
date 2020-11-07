@@ -3,7 +3,7 @@
 name = "solver"
 version = "0.0.1"
 authors = ["cnpls"]
-license = "Apache 2.0"
+license = "Apache License 2.0"
 description = "Solver Library"
 repository = "https://github.com/cnpls/solver-rs.git"
 homepage = "https://github.com/cnpls/solver-rs.git"
