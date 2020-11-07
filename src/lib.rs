@@ -1,6 +1,3 @@
 /*
-* solver
-* 
-* 
+* solver library for rust
 */
-use::crate;
