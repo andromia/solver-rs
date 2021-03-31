@@ -1,12 +1,12 @@
 [package]
 
 name = "solver"
-version = "0.0.1"
-authors = ["cnpls"]
+version = "0.0.2"
+authors = ["cnpls", "chrispryer"]
 license = "MIT"
 description = "Solver Library"
-repository = "https://github.com/cnpls/solver-rs.git"
-homepage = "https://github.com/cnpls/solver-rs.git"
+repository = "https://github.com/andromia/solver-rs.git"
+homepage = "https://github.com/andromia/solver-rs.git"
 readme = "README.md"
 keywords = [
     "solver"
@@ -14,7 +14,6 @@ keywords = [
 categories = [
     "science", 
     "mathematics",
-    "engineering"
 ]
 exclude = [".vscode/", "Vagrantfile", "vm-bootstrap.sh"]
 
@@ -22,4 +21,3 @@ exclude = [".vscode/", "Vagrantfile", "vm-bootstrap.sh"]
 features = ["std"]
 
 [dependencies]
-ndarray = "0.13.0"

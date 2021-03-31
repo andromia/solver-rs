@@ -1,4 +1,4 @@
-mod geo;
+pub mod geo;
 mod tests;
 use std::vec::Vec;
 
